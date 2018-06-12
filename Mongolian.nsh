@@ -1,5 +1,6 @@
 ﻿;Language: Mongolian (1104)
 ;By Bayarsaikhan Enkhtaivan
+;Improved by Bachka @2018 Munich
 
 !insertmacro LANGFILE "Mongolian" "Mongolian (Cyrillic)" "Монгол" "Mongol kiril"
 
@@ -25,7 +26,7 @@
   ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Лицензийн зөвшөөрөл"
   ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Устгахынхаа өмнө та $(^NameDA)-ын Лицензийн болзолуудыг уншина уу."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Хэрвээ та Лицэнзийн болзлуудыг зөвшөөрч байвал Зөвшөөрлөө гэсэн товч дээр дарна уу. $(^NameDA)-ыг суулгахын тулд та Лицэнзийг зөвшөөрөх ёстой."
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Хэрвээ та Лицэнзийн болзлуудыг зөвшөөрч байвал та доор чагтална уу. $(^NameDA)-ыг суулгахын тулд та Лицэнзийг зөвшөөрөх ёстой. $_CLICK"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Хэрвээ та Лицэнзийн болзлуудыг зөвшөөрч байвал доор чагтална уу. $(^NameDA)-ыг суулгахын тулд та Лицэнзийг зөвшөөрөх ёстой. $_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Хэрвээ та Лицэнзийн болзлуудыг зөвшөөрч байвал доорхиос эхнэхийг нь сонгоно уу. $(^NameDA)-ыг суулгахын тулд та Лицэнзийг зөвшөөрөх ёстой. $_CLICK"
 !endif
 
@@ -95,7 +96,7 @@
 !ifdef MUI_FINISHPAGE | MUI_UNFINISHPAGE
   ${LangFileString} MUI_TEXT_FINISH_REBOOTNOW "Шууд одоо ачаалъя"
   ${LangFileString} MUI_TEXT_FINISH_REBOOTLATER "Би дараа нь өөрөө хүссэн үедээ хийе"
-  ${LangFileString} MUI_TEXT_FINISH_RUN "$(^NameDA)-ыг ажиллуулъя"
+  ${LangFileString} MUI_TEXT_FINISH_RUN "$(^NameDA)-ыг одоо ажиллуулъя"
   ${LangFileString} MUI_TEXT_FINISH_SHOWREADME "&Readme-ыг уншъя"
   ${LangFileString} MUI_BUTTONTEXT_FINISH "&Төгсгөл"
 !endif
